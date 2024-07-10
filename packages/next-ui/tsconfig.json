@@ -3,6 +3,8 @@
   "extends": "../../tsconfig.base.json",
   "compilerOptions": {
     "baseUrl": "./",
+    "jsx": "preserve",
+    "allowJs": false,
     "noImplicitAny": false,
     "noEmit": false,
     "incremental": true,

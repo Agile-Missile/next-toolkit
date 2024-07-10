@@ -2,7 +2,11 @@
   "compilerOptions": {
     "baseUrl": "./src",
     "target": "es5",
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": false,
@@ -21,7 +25,12 @@
       }
     ],
     "paths": {
-      "@/public/*": ["../public/*"]
+      "@/public/*": [
+        "../public/*"
+      ],
+      "@agile/next-ui/*": [
+        "../next-ui/src/*"
+      ],
     },
     "strictNullChecks": true
   },
@@ -34,5 +43,7 @@
     "scripts/*.ts",
     "tailwind.config.cjs"
   ],
-  "exclude": ["node_modules"]
+  "exclude": [
+    "node_modules"
+  ]
 }
